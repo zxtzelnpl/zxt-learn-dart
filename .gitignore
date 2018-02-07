@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+.packages
+.pub/
+build/
+pubspec.lock
+doc/api/
+.idea
+*.iml
+out
+gen
