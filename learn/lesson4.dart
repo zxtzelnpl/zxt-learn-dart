@@ -10,6 +10,9 @@ void main(){
     callbacks.add(()=>print('Save $i'));
   }
   callbacks.forEach((c)=>c());
+
+  FunX(1,b:7,c:7,e:7);
+  FunY(1,7,7,7);
 }
 
 String sayHello1(String name)
@@ -30,3 +33,12 @@ Function makeSubstract(num n)
   return (num i)=>n-i;
 }
 
+FunX(a,{b,c:3,d:4,e})
+{
+  print('$a $b $c $d $e');
+}
+
+FunY(a,[b,c=3,d=4,e])
+{
+  print('$a $b $c $d $e');
+}
